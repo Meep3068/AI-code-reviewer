@@ -59,8 +59,8 @@ async function analyzeAndCopyWorkspace(rootPath, analyzerPath, codeExtensions, a
                 `--${boundary}--`;
 
             const requestOptions = {
-                hostname: '45.76.31.114',
-                port: 5000,
+                hostname: ,
+                port: ,
                 path: '/analyze',
                 method: 'POST',
                 headers: {
